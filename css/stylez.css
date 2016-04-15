@@ -12,7 +12,7 @@ body {
 	font-size: 1em;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
-	color: #fff;
+	color: #000;
 }
 
 a {
@@ -35,6 +35,7 @@ ul {
 	flex-direction: row;
 	border-bottom: 3px solid #fff;
 	letter-spacing: .2em;
+	z-index: 1000;
 }
 
 #main-header nav {
@@ -121,23 +122,31 @@ ul {
 	border: 3px solid #fff;
 	height: 100%;
 	margin: auto;
+	position: relative;
 }
 
 .cover-text h1 {
-	font-family: "Cabin", sans-serif;
 	font-size: 3em;
-	margin: 10px 20px;
 }
 
 .cover-text h2 {
-	font-family: "Cabin", sans-serif;
 	font-size: 2em;
-	margin: 10px 20px;
+}
+
+.cover-text h4 {
+	font-size: 1.5em;
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
 }
 
 .cover-text h1,
-.cover-text h2 {
+.cover-text h2,
+.cover-text h4 {
+	font-family: "Cabin", sans-serif;
+	color: #fff;
 	font-weight: 400;
+	margin: 10px 20px;
 }
 
 
