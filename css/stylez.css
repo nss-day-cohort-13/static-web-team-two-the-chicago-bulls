@@ -81,16 +81,21 @@ ul {
 	background: #fff;
 	border-radius: 10px;
 	margin: 20px auto;
-	padding: 20px;
 }
 
 .page-head {
 	width: 100%;
 	border-bottom: 1px solid #000;
+	border-radius: 10px 10px 0 0;
 	background: #757a7f;
 	color: #fff;
 	margin: 0;
 	padding: 10px;
+}
+
+p {
+	margin: 20px 20px;
+	text-align: justify;
 }
 
 .page-content {
@@ -114,19 +119,19 @@ ul {
 
 .pics {
 	width: 600px;
-	margin: auto;
+	margin: 20px;
 }
 
 .card {
-	height: 625px;
+	height: 640px;
 }
 
 
 /*========== Footer styles ==========*/
 
-#main-footer {
-	text-align: center;
+#main-footer p {
 	color: #000;
+	text-align: center;
 }
 
 
@@ -193,6 +198,27 @@ input:valid {
 .missionStatement {
 	font-style: italic;
 }
+
+
+
+/*========== Employee styles ==========*/
+
+.employee-card {
+	flex-basis: 400px;
+}
+
+.employee-card p {
+	max-width: 360px;
+}
+
+.profile_pic {
+	width: 200px;
+	margin: 10px 100px;
+	border-radius: 50%;
+}
+
+
+
 
 
 
