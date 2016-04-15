@@ -1,5 +1,6 @@
 
 /*========== Default styles ==========*/
+/* Everything */
 
 * {
 	box-sizing: border-box;
@@ -9,6 +10,9 @@ body {
 	margin: 0;
 	padding: 0;
 	font-size: 1em;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	color: #fff;
 }
 
 a {
@@ -22,20 +26,123 @@ ul {
 
 /*========== Header styles ==========*/
 
+#main-header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: rgba(100,100,100,.5);
+	display: flex;
+	flex-direction: row;
+	border-bottom: 3px solid #fff;
+	letter-spacing: .2em;
+}
+
+#main-header nav {
+	width: 90%;
+	margin: auto;
+}
+
+#main-header ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#main-header a,
+#main-header a:visited {
+	font-family: "Cabin", sans-serif;
+	color: #fff;
+	padding: 3px 10px;
+}
+
+#main-header a:hover {
+	text-shadow: 2px 2px 2px rgba(0,0,0,.2);
+	color: #fe9e49;
+}
+
 
 
 
 /*========== Main content area styles ==========*/
 
+#wrapper {
+	height: 100vh;
+	width: 100%;
+	background: #30638E;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
 
+.page {
+	background: #efefe8;
+	border-radius: 10px;
+	margin: auto;
+}
+
+.page-head {
+	width: 100%;
+	border-bottom: 1px solid #000;
+	background: #757a7f;
+	color: #fff;
+	margin: 0;
+	padding: 10px;
+}
+
+.page-content {
+	margin: 0;
+	padding: 10px;
+}
 
 
 /*========== Footer styles ==========*/
 
-
+#main-footer {
+	text-align: center;
+	color: #000;
+}
 
 
 
 
 /* Insert any page specific styles below. Mark with appropriate headings. */
+
+/*========== Cover styles ==========*/
+
+#cover {
+	background-image: url('../images/snowy_sunrise.jpg');
+	height: 100vh;
+	width: 100%;
+	padding: 75px;
+	padding-bottom: 30px;
+}
+
+.cover-text {
+	border: 3px solid #fff;
+	height: 100%;
+	margin: auto;
+}
+
+.cover-text h1 {
+	font-family: "Cabin", sans-serif;
+	font-size: 3em;
+	margin: 10px 20px;
+}
+
+.cover-text h2 {
+	font-family: "Cabin", sans-serif;
+	font-size: 2em;
+	margin: 10px 20px;
+}
+
+.cover-text h1,
+.cover-text h2 {
+	font-weight: 400;
+}
+
+
+
+
+
+
 
