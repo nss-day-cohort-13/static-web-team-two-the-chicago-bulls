@@ -68,6 +68,7 @@ for(i = 0; i < vacations.length; i +=1) {
 	"<div class='page card'><header class='page-header'><img class='pics' src =' " + eachPackage.url + "' alt= 'Vacation Pictures'></header>" +
 	"<p class='name'>" + eachPackage.name + "</p>" +
 	"<p class='description'>" + eachPackage.description + "</p>" +
+	"<p class='description ipsum'>Nulla non molestie consectetur. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur ornare volutpat ipsum. Suspendisse bibendum metus vel feugiat maximus. Vestibulum elementum nulla nec pellentesque rhoncus. Etiam accumsan urna quis erat facilisis, quis vestibulum nisi blandit.</p>" +
 	"<p class='price'>" + eachPackage.price + "</p></div>";
 
 	// console.log("package", eachPackage );

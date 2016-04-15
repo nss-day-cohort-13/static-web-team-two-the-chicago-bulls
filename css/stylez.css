@@ -103,7 +103,13 @@ ul {
 }
 
 .description {
+	font-size: 1.1;
 	max-width: 600px;
+}
+
+.ipsum {
+	font-style: none;
+	font-size: .8em;
 }
 
 .pics {
