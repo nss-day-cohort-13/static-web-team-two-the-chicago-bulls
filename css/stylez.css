@@ -210,16 +210,6 @@ p {
 }
 
 
-/*========== Form styles ==========*/
-
-input:invalid {
-    box-shadow: 0 0 5px 1px red;
-}
-
-input:valid {
-    box-shadow: 0 0 5px 1px green;
-}
-
 
 /*========== Mission styles ==========*/
 
@@ -267,7 +257,15 @@ input:valid {
 /*========== Contact styles ==========*/
 
 input {
-	margin: 10px;
+	margin: 20px;
+}
+
+input:invalid {
+    box-shadow: 0 0 5px 1px red;
+}
+
+input:valid {
+    box-shadow: 0 0 5px 1px green;
 }
 
 
