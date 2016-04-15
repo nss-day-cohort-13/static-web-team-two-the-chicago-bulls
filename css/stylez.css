@@ -70,6 +70,7 @@ ul {
 	min-height: 100vh;
 	width: 100%;
 	padding: 20px;
+	padding-top: 78px;
 	background: #30638E;
 	display: flex;
 	flex-direction: row;
@@ -77,9 +78,9 @@ ul {
 }
 
 .page {
-	background: #efefe8;
+	background: #fff;
 	border-radius: 10px;
-	margin: auto;
+	margin: 20px auto;
 	padding: 20px;
 }
 
@@ -95,6 +96,23 @@ ul {
 .page-content {
 	margin: 0;
 	padding: 10px;
+}
+
+.name {
+	font-weight: 600;
+}
+
+.description {
+	max-width: 400px;
+}
+
+.pics {
+	width: 600px;
+	margin: auto;
+}
+
+.card {
+	height: 625px;
 }
 
 
@@ -153,8 +171,15 @@ ul {
 }
 
 
+/*========== Form styles ==========*/
 
+input:invalid {
+    box-shadow: 0 0 5px 1px red;
+}
 
+input:valid {
+    box-shadow: 0 0 5px 1px green;
+}
 
 
 
