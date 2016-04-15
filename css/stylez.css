@@ -100,11 +100,10 @@ ul {
 
 .name {
 	font-weight: 600;
-	font-size: 1.3em;
 }
 
 .description {
-	/*max-width: 400px;*/
+	max-width: 600px;
 }
 
 .pics {
