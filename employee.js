@@ -48,12 +48,12 @@ var employeeElement = document.getElementById("wrapper");
 
 for (var i = 0; i < employees.length; i++) {
 	var currentEmployee = employees[i];
-	var image = "<div><img src='" + currentEmployee.image + "' alt='" + currentEmployee.name + "'></div>";
-	var name = "<div><h3>" + currentEmployee.name + "</h3></div>";
-	var title = "<div><p>" + currentEmployee.title + "</p></div>";
-	var about = "<div><p>" + currentEmployee.about + "</p></div>";
-	var phoneNumber = "<div><p>" + currentEmployee.phoneNumber + "</p></div>";
-	var email = "<div><p>" + currentEmployee.email + "</p></div>";
+	var image = "<div class='page'><img class='page-head'src='" + currentEmployee.image + " alt='" + currentEmployee.name + "'></div>'";
+	var name = "<div class='page-content'><h3>" + currentEmployee.name + "</h3>";
+	var title = "<p>" + currentEmployee.title + "</p>";
+	var about = "<p>" + currentEmployee.about + "</p>";
+	var phoneNumber = "<p>" + currentEmployee.phoneNumber + "</p>";
+	var email = "<p>" + currentEmployee.email + "</p></div>";
 
 	employeeElement.innerHTML += image + name + title + about + phoneNumber + email;
 
