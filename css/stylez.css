@@ -1,0 +1,41 @@
+
+/*========== Default styles ==========*/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+
+/*========== Header styles ==========*/
+
+
+
+
+/*========== Main content area styles ==========*/
+
+
+
+
+/*========== Footer styles ==========*/
+
+
+
+
+
+
+/* Insert any page specific styles below. Mark with appropriate headings. */
+
