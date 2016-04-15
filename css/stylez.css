@@ -98,11 +98,6 @@ p {
 	text-align: justify;
 }
 
-.page-content {
-	margin: 0;
-	padding: 10px;
-}
-
 .name {
 	font-weight: 600;
 }
@@ -205,7 +200,7 @@ input:valid {
 
 .employee-card {
 	flex-basis: 400px;
-	margin: 10px;
+	margin: 10`px;
 }
 
 .employee-card p {
@@ -219,6 +214,22 @@ input:valid {
 }
 
 
+/*========== Mission styles ==========*/
+
+.history {
+	display: flex;
+	flex-direction: row;
+}
+
+.page-content {
+	margin: 10px;
+	padding: 10px;
+	width: 50%;
+}
+
+.page-content:first-child {
+	border-right: 1px solid #000;
+}
 
 
 
