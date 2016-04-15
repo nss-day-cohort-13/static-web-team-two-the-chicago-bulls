@@ -100,10 +100,11 @@ ul {
 
 .name {
 	font-weight: 600;
+	font-size: 1.3em;
 }
 
 .description {
-	max-width: 400px;
+	/*max-width: 400px;*/
 }
 
 .pics {
@@ -180,6 +181,16 @@ input:invalid {
 input:valid {
     box-shadow: 0 0 5px 1px green;
 }
+
+
+/*========== Mission styles ==========*/
+
+.missionStatement {
+	font-style: italic;
+}
+
+
+
 
 
 
