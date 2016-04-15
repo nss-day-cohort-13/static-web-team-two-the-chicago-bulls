@@ -142,12 +142,28 @@ p {
 
 /*========== Cover styles ==========*/
 
-#cover {
-	background-image: url('../images/snowy_sunrise.jpg');
+#cover,
+#cover-mission,
+#cover-employee {
 	height: 100vh;
 	width: 100%;
 	padding: 75px;
 	padding-bottom: 30px;
+  background-repeat: no-repeat;
+}
+
+#cover {
+	background-image: url('../images/snowy_sunrise.jpg');
+}
+
+#cover-mission {
+	background-image: url('../images/hq.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+#cover-employee {
+	background-image: url('../images/Jet.jpg');
 }
 
 .cover-text {
@@ -231,7 +247,7 @@ input:valid {
 	width: 50%;
 }
 
-.page-content:first-child {
+.history-content:first-child {
 	border-right: 1px solid #000;
 }
 
