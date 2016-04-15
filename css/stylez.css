@@ -107,7 +107,7 @@ ul {
 
 /* Insert any page specific styles below. Mark with appropriate headings. */
 
-/*========== Banner styles ==========*/
+/*========== Cover styles ==========*/
 
 #cover {
 	background-image: url('../images/snowy_sunrise.jpg');
@@ -117,26 +117,26 @@ ul {
 	padding-bottom: 30px;
 }
 
-.banner-text {
+.cover-text {
 	border: 3px solid #fff;
 	height: 100%;
 	margin: auto;
 }
 
-.banner-text h1 {
+.cover-text h1 {
 	font-family: "Cabin", sans-serif;
 	font-size: 3em;
 	margin: 10px 20px;
 }
 
-.banner-text h2 {
+.cover-text h2 {
 	font-family: "Cabin", sans-serif;
 	font-size: 2em;
 	margin: 10px 20px;
 }
 
-.banner-text h1,
-.banner-text h2 {
+.cover-text h1,
+.cover-text h2 {
 	font-weight: 400;
 }
 
