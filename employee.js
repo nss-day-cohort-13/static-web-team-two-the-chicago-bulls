@@ -48,7 +48,7 @@ var employeeElement = document.getElementById("wrapper");
 
 for (var i = 0; i < employees.length; i++) {
 	var currentEmployee = employees[i];
-	var image = "<div class='page'><img class='page-head'src='" + currentEmployee.image + " alt='" + currentEmployee.name + "'>'";
+	var image = "<div class='page'><img class='page-head'src='" + currentEmployee.image + " alt='" + currentEmployee.name + "'>";
 	var name = "<div class='page-content'><h3>" + currentEmployee.name + "</h3>";
 	var title = "<p>" + currentEmployee.title + "</p>";
 	var about = "<p>" + currentEmployee.about + "</p>";
