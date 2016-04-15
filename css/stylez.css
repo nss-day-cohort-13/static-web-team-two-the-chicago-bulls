@@ -93,9 +93,15 @@ ul {
 	padding: 10px;
 }
 
+
 p {
 	margin: 20px 20px;
 	text-align: justify;
+}
+
+.page-content {
+	margin: 10px;
+	padding: 10px;
 }
 
 .name {
@@ -221,9 +227,7 @@ input:valid {
 	flex-direction: row;
 }
 
-.page-content {
-	margin: 10px;
-	padding: 10px;
+.history-content {
 	width: 50%;
 }
 
