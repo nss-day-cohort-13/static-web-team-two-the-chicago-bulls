@@ -15,8 +15,7 @@ var vacations = [
 },
 
 {
-	name: "Dubai, United Arab Emirates",
-	description: "On Top of The World - Enjoy 8 nights in this desert.",
+	name: "Dubai, United Arab Emirates,In this desert.",
 	price: "$899.99",
 	url: "images/dubai.jpg"
 },
